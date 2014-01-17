@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss">
+  <channel>
+    <title>人気エントリー</title>
+    <link>http://blog.hatena.ne.jp/-/hotentry</link>
+    <description>ブログとダイアリーでいま話題の記事です。</description>
+    <lastBuildDate>Sat, 04 Jan 2014 23:37:19 +0900</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>Hatena::Blog</generator>
+    
+      <item>
+        <title>タイトル1</title>
+        <link>http://www.mocology.com/test1</link>
+        <dc:creator>user1</dc:creator>
+        <description>本文test1</description>
+        <media:content url="http://www.mocology.com/test1/test1.jpg" />
+        <pubDate>Sat, 04 Jan 2014 23:37:19 +0900</pubDate>
+      </item>
+    
+      <item>
+        <title>タイトル2</title>
+        <link>http://www.mocology.com/test2</link>
+        <dc:creator>user2</dc:creator>
+        <description>本文test2</description>
+        <media:content url="http://www.mocology.com/test2/test2.jpg" />
+        <pubDate>Sat, 04 Jan 2014 18:38:43 +0900</pubDate>
+      </item>
+  </channel>
+</rss>

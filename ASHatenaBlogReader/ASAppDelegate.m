@@ -7,12 +7,19 @@
 //
 
 #import "ASAppDelegate.h"
+#import "AFNetworkActivityLogger.h"
+
+static NSString * const kBlogStoreName = @"Blog.sqlite";
 
 @implementation ASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    [[AFNetworkActivityLogger sharedLogger] startLogging];
+//    [[AFNetworkActivityLogger sharedLogger] setLevel:AFLoggerLevelDebug];
+    
+    [MagicalRecord setupCoreDataStackWithStoreNamed:kBlogStoreName];
     return YES;
 }
 							
@@ -41,6 +48,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [MagicalRecord cleanUp];
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E10DC17187D287200CC91E4 /* ASKissXMLDocumentResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E10DC16187D287100CC91E4 /* ASKissXMLDocumentResponseSerializer.m */; };
+		0E10DC1A187D2FEB00CC91E4 /* DDXMLElement+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E10DC18187D2FEB00CC91E4 /* DDXMLElement+Dictionary.m */; };
 		0E33B0AE1871C11900E5C195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0AD1871C11900E5C195 /* Foundation.framework */; };
 		0E33B0B01871C11900E5C195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0AF1871C11900E5C195 /* CoreGraphics.framework */; };
 		0E33B0B21871C11900E5C195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0B11871C11900E5C195 /* UIKit.framework */; };
@@ -14,13 +16,31 @@
 		0E33B0BA1871C11900E5C195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0B91871C11900E5C195 /* main.m */; };
 		0E33B0BE1871C11900E5C195 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0BD1871C11900E5C195 /* ASAppDelegate.m */; };
 		0E33B0C11871C11900E5C195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E33B0BF1871C11900E5C195 /* Main.storyboard */; };
-		0E33B0C41871C11900E5C195 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0C31871C11900E5C195 /* ASViewController.m */; };
 		0E33B0C61871C11900E5C195 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E33B0C51871C11900E5C195 /* Images.xcassets */; };
 		0E33B0CD1871C11900E5C195 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0CC1871C11900E5C195 /* XCTest.framework */; };
 		0E33B0CE1871C11900E5C195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0AD1871C11900E5C195 /* Foundation.framework */; };
 		0E33B0CF1871C11900E5C195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0B11871C11900E5C195 /* UIKit.framework */; };
 		0E33B0D71871C11900E5C195 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E33B0D51871C11900E5C195 /* InfoPlist.strings */; };
-		0E33B0D91871C11900E5C195 /* ASHatenaBlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0D81871C11900E5C195 /* ASHatenaBlogReaderTests.m */; };
+		0E33B0E51871C22300E5C195 /* ASBlogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0E41871C22300E5C195 /* ASBlogListViewController.m */; };
+		0E33B0E71871C4A500E5C195 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E33B0E61871C4A500E5C195 /* libxml2.dylib */; };
+		0E33B0F01871C6CF00E5C195 /* ASBlogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0EF1871C6CF00E5C195 /* ASBlogManager.m */; };
+		0E33B0F51871CE5B00E5C195 /* ASBlogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0F41871CE5B00E5C195 /* ASBlogTableViewCell.m */; };
+		0E33B0FC1872799400E5C195 /* ASBlogDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0FB1872799400E5C195 /* ASBlogDetailViewController.m */; };
+		0E33B1001872FE5F00E5C195 /* ASDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33B0FF1872FE5F00E5C195 /* ASDateUtil.m */; };
+		0E3902B7187D696700502159 /* ASHTTPStubUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3902B6187D696700502159 /* ASHTTPStubUtil.m */; };
+		0E3902B9187D859000502159 /* BlogListFail.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E3902B8187D859000502159 /* BlogListFail.txt */; };
+		0E3BF5C718786DAB00C98D5B /* ASBlogManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3BF5C618786DAB00C98D5B /* ASBlogManagerTests.m */; };
+		0E3BF5CA1878FC7900C98D5B /* BlogList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E3BF5C91878FC7900C98D5B /* BlogList.txt */; };
+		0E60BBC218882E84009FEB8F /* ASBlogAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E60BBC118882E84009FEB8F /* ASBlogAPIClient.m */; };
+		0E60BBC518883C3A009FEB8F /* ASBlogAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E60BBC418883C3A009FEB8F /* ASBlogAPIClientTests.m */; };
+		0EB50BAD18780214008A14A2 /* ASSDateUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB50BAC18780214008A14A2 /* ASSDateUtilTests.m */; };
+		0EBDA7BD1873F009008F0892 /* ASStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBDA7BC1873F009008F0892 /* ASStringUtil.m */; };
+		0ED5E93F1886E99500E3396D /* ASBlogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5E93D1886E99500E3396D /* ASBlogModel.m */; };
+		0ED5E9421886ED9100E3396D /* Blog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5E9401886ED9100E3396D /* Blog.xcdatamodeld */; };
+		0ED5E9471886EF5500E3396D /* _ASBlogEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5E9441886EF5400E3396D /* _ASBlogEntity.m */; };
+		0ED5E9481886EF5500E3396D /* ASBlogEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED5E9461886EF5500E3396D /* ASBlogEntity.m */; };
+		3E42D0744329494FA105713B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B077083681124EA4A4619191 /* libPods.a */; };
+		73F1A463A6FA41199629EAA2 /* libPods-ASHatenaBlogReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BCDC498A684FEF911953BC /* libPods-ASHatenaBlogReaderTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E10DC15187D287100CC91E4 /* ASKissXMLDocumentResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASKissXMLDocumentResponseSerializer.h; sourceTree = "<group>"; };
+		0E10DC16187D287100CC91E4 /* ASKissXMLDocumentResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASKissXMLDocumentResponseSerializer.m; sourceTree = "<group>"; };
+		0E10DC18187D2FEB00CC91E4 /* DDXMLElement+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDXMLElement+Dictionary.m"; sourceTree = "<group>"; };
+		0E10DC19187D2FEB00CC91E4 /* DDXMLElement+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDXMLElement+Dictionary.h"; sourceTree = "<group>"; };
 		0E33B0AA1871C11800E5C195 /* ASHatenaBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHatenaBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E33B0AD1871C11900E5C195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E33B0AF1871C11900E5C195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +69,44 @@
 		0E33B0BC1871C11900E5C195 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
 		0E33B0BD1871C11900E5C195 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
 		0E33B0C01871C11900E5C195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E33B0C21871C11900E5C195 /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
-		0E33B0C31871C11900E5C195 /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
 		0E33B0C51871C11900E5C195 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E33B0CB1871C11900E5C195 /* ASHatenaBlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASHatenaBlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E33B0CC1871C11900E5C195 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0E33B0D41871C11900E5C195 /* ASHatenaBlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASHatenaBlogReaderTests-Info.plist"; sourceTree = "<group>"; };
 		0E33B0D61871C11900E5C195 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0E33B0D81871C11900E5C195 /* ASHatenaBlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASHatenaBlogReaderTests.m; sourceTree = "<group>"; };
+		0E33B0E31871C22300E5C195 /* ASBlogListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogListViewController.h; sourceTree = "<group>"; };
+		0E33B0E41871C22300E5C195 /* ASBlogListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogListViewController.m; sourceTree = "<group>"; };
+		0E33B0E61871C4A500E5C195 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0E33B0EE1871C6CF00E5C195 /* ASBlogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogManager.h; sourceTree = "<group>"; };
+		0E33B0EF1871C6CF00E5C195 /* ASBlogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogManager.m; sourceTree = "<group>"; };
+		0E33B0F31871CE5B00E5C195 /* ASBlogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogTableViewCell.h; sourceTree = "<group>"; };
+		0E33B0F41871CE5B00E5C195 /* ASBlogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogTableViewCell.m; sourceTree = "<group>"; };
+		0E33B0FA1872799400E5C195 /* ASBlogDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogDetailViewController.h; sourceTree = "<group>"; };
+		0E33B0FB1872799400E5C195 /* ASBlogDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogDetailViewController.m; sourceTree = "<group>"; };
+		0E33B0FE1872FE5F00E5C195 /* ASDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDateUtil.h; sourceTree = "<group>"; };
+		0E33B0FF1872FE5F00E5C195 /* ASDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDateUtil.m; sourceTree = "<group>"; };
+		0E3902B5187D696700502159 /* ASHTTPStubUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHTTPStubUtil.h; sourceTree = "<group>"; };
+		0E3902B6187D696700502159 /* ASHTTPStubUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHTTPStubUtil.m; sourceTree = "<group>"; };
+		0E3902B8187D859000502159 /* BlogListFail.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlogListFail.txt; sourceTree = "<group>"; };
+		0E3BF5C618786DAB00C98D5B /* ASBlogManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogManagerTests.m; sourceTree = "<group>"; };
+		0E3BF5C91878FC7900C98D5B /* BlogList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlogList.txt; sourceTree = "<group>"; };
+		0E60BBC018882E84009FEB8F /* ASBlogAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogAPIClient.h; sourceTree = "<group>"; };
+		0E60BBC118882E84009FEB8F /* ASBlogAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogAPIClient.m; sourceTree = "<group>"; };
+		0E60BBC418883C3A009FEB8F /* ASBlogAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogAPIClientTests.m; sourceTree = "<group>"; };
+		0EB50BAC18780214008A14A2 /* ASSDateUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSDateUtilTests.m; sourceTree = "<group>"; };
+		0EBDA7BB1873F009008F0892 /* ASStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStringUtil.h; sourceTree = "<group>"; };
+		0EBDA7BC1873F009008F0892 /* ASStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStringUtil.m; sourceTree = "<group>"; };
+		0ED5E93D1886E99500E3396D /* ASBlogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogModel.m; sourceTree = "<group>"; };
+		0ED5E93E1886E99500E3396D /* ASBlogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogModel.h; sourceTree = "<group>"; };
+		0ED5E9411886ED9100E3396D /* Blog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blog.xcdatamodel; sourceTree = "<group>"; };
+		0ED5E9431886EF5400E3396D /* _ASBlogEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _ASBlogEntity.h; sourceTree = "<group>"; };
+		0ED5E9441886EF5400E3396D /* _ASBlogEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _ASBlogEntity.m; sourceTree = "<group>"; };
+		0ED5E9451886EF5400E3396D /* ASBlogEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlogEntity.h; sourceTree = "<group>"; };
+		0ED5E9461886EF5500E3396D /* ASBlogEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlogEntity.m; sourceTree = "<group>"; };
+		14E9E214F24048B1A059949F /* Pods-ASHatenaBlogReaderTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHatenaBlogReaderTests.xcconfig"; path = "Pods/Pods-ASHatenaBlogReaderTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		63BCDC498A684FEF911953BC /* libPods-ASHatenaBlogReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASHatenaBlogReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B077083681124EA4A4619191 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83AE91370214F738C13CDF6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +114,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E33B0E71871C4A500E5C195 /* libxml2.dylib in Frameworks */,
 				0E33B0B01871C11900E5C195 /* CoreGraphics.framework in Frameworks */,
 				0E33B0B21871C11900E5C195 /* UIKit.framework in Frameworks */,
 				0E33B0AE1871C11900E5C195 /* Foundation.framework in Frameworks */,
+				3E42D0744329494FA105713B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +129,7 @@
 				0E33B0CD1871C11900E5C195 /* XCTest.framework in Frameworks */,
 				0E33B0CF1871C11900E5C195 /* UIKit.framework in Frameworks */,
 				0E33B0CE1871C11900E5C195 /* Foundation.framework in Frameworks */,
+				73F1A463A6FA41199629EAA2 /* libPods-ASHatenaBlogReaderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +143,8 @@
 				0E33B0D21871C11900E5C195 /* ASHatenaBlogReaderTests */,
 				0E33B0AC1871C11900E5C195 /* Frameworks */,
 				0E33B0AB1871C11800E5C195 /* Products */,
+				F83AE91370214F738C13CDF6 /* Pods.xcconfig */,
+				14E9E214F24048B1A059949F /* Pods-ASHatenaBlogReaderTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +160,13 @@
 		0E33B0AC1871C11900E5C195 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E33B0E61871C4A500E5C195 /* libxml2.dylib */,
 				0E33B0AD1871C11900E5C195 /* Foundation.framework */,
 				0E33B0AF1871C11900E5C195 /* CoreGraphics.framework */,
 				0E33B0B11871C11900E5C195 /* UIKit.framework */,
 				0E33B0CC1871C11900E5C195 /* XCTest.framework */,
+				B077083681124EA4A4619191 /* libPods.a */,
+				63BCDC498A684FEF911953BC /* libPods-ASHatenaBlogReaderTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +174,13 @@
 		0E33B0B31871C11900E5C195 /* ASHatenaBlogReader */ = {
 			isa = PBXGroup;
 			children = (
+				0E33B0FD1872FDE300E5C195 /* Util */,
+				0E33B0F11871CE0200E5C195 /* View */,
+				0E33B0E81871C52F00E5C195 /* Model */,
+				0E33B0E21871C12A00E5C195 /* Controller */,
 				0E33B0BC1871C11900E5C195 /* ASAppDelegate.h */,
 				0E33B0BD1871C11900E5C195 /* ASAppDelegate.m */,
 				0E33B0BF1871C11900E5C195 /* Main.storyboard */,
-				0E33B0C21871C11900E5C195 /* ASViewController.h */,
-				0E33B0C31871C11900E5C195 /* ASViewController.m */,
 				0E33B0C51871C11900E5C195 /* Images.xcassets */,
 				0E33B0B41871C11900E5C195 /* Supporting Files */,
 			);
@@ -137,7 +201,9 @@
 		0E33B0D21871C11900E5C195 /* ASHatenaBlogReaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				0E33B0D81871C11900E5C195 /* ASHatenaBlogReaderTests.m */,
+				0E3BF5C81878FC1C00C98D5B /* Data */,
+				0E3BF5C418786D6100C98D5B /* Model */,
+				0EB50BAB187801CB008A14A2 /* Util */,
 				0E33B0D31871C11900E5C195 /* Supporting Files */,
 			);
 			path = ASHatenaBlogReaderTests;
@@ -152,6 +218,143 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0E33B0E21871C12A00E5C195 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E33B0E31871C22300E5C195 /* ASBlogListViewController.h */,
+				0E33B0E41871C22300E5C195 /* ASBlogListViewController.m */,
+				0E33B0FA1872799400E5C195 /* ASBlogDetailViewController.h */,
+				0E33B0FB1872799400E5C195 /* ASBlogDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E33B0E81871C52F00E5C195 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E60BBBF18882E03009FEB8F /* APIClient */,
+				0ED5E93C1886E78900E3396D /* JSONModel */,
+				0E33B0F61871D95800E5C195 /* Entity */,
+				0E33B0ED1871C66500E5C195 /* Manager */,
+				0E10DC15187D287100CC91E4 /* ASKissXMLDocumentResponseSerializer.h */,
+				0E10DC16187D287100CC91E4 /* ASKissXMLDocumentResponseSerializer.m */,
+				0ED5E9401886ED9100E3396D /* Blog.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E33B0ED1871C66500E5C195 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0E33B0EE1871C6CF00E5C195 /* ASBlogManager.h */,
+				0E33B0EF1871C6CF00E5C195 /* ASBlogManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0E33B0F11871CE0200E5C195 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E33B0F21871CE2600E5C195 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E33B0F21871CE2600E5C195 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E33B0F31871CE5B00E5C195 /* ASBlogTableViewCell.h */,
+				0E33B0F41871CE5B00E5C195 /* ASBlogTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0E33B0F61871D95800E5C195 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0ED5E9431886EF5400E3396D /* _ASBlogEntity.h */,
+				0ED5E9441886EF5400E3396D /* _ASBlogEntity.m */,
+				0ED5E9451886EF5400E3396D /* ASBlogEntity.h */,
+				0ED5E9461886EF5500E3396D /* ASBlogEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0E33B0FD1872FDE300E5C195 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0E10DC18187D2FEB00CC91E4 /* DDXMLElement+Dictionary.m */,
+				0E10DC19187D2FEB00CC91E4 /* DDXMLElement+Dictionary.h */,
+				0E33B0FE1872FE5F00E5C195 /* ASDateUtil.h */,
+				0E33B0FF1872FE5F00E5C195 /* ASDateUtil.m */,
+				0EBDA7BB1873F009008F0892 /* ASStringUtil.h */,
+				0EBDA7BC1873F009008F0892 /* ASStringUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0E3BF5C418786D6100C98D5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E60BBC318883BC2009FEB8F /* APIClient */,
+				0E3BF5C518786D6700C98D5B /* Manager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E3BF5C518786D6700C98D5B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0E3BF5C618786DAB00C98D5B /* ASBlogManagerTests.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0E3BF5C81878FC1C00C98D5B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0E3902B8187D859000502159 /* BlogListFail.txt */,
+				0E3BF5C91878FC7900C98D5B /* BlogList.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0E60BBBF18882E03009FEB8F /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				0E60BBC018882E84009FEB8F /* ASBlogAPIClient.h */,
+				0E60BBC118882E84009FEB8F /* ASBlogAPIClient.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		0E60BBC318883BC2009FEB8F /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				0E60BBC418883C3A009FEB8F /* ASBlogAPIClientTests.m */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		0EB50BAB187801CB008A14A2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0EB50BAC18780214008A14A2 /* ASSDateUtilTests.m */,
+				0E3902B5187D696700502159 /* ASHTTPStubUtil.h */,
+				0E3902B6187D696700502159 /* ASHTTPStubUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0ED5E93C1886E78900E3396D /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				0ED5E93E1886E99500E3396D /* ASBlogModel.h */,
+				0ED5E93D1886E99500E3396D /* ASBlogModel.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E33B0DC1871C11900E5C195 /* Build configuration list for PBXNativeTarget "ASHatenaBlogReader" */;
 			buildPhases = (
+				B4C350404B1C404BAF8385DA /* Check Pods Manifest.lock */,
 				0E33B0A61871C11800E5C195 /* Sources */,
 				0E33B0A71871C11800E5C195 /* Frameworks */,
 				0E33B0A81871C11800E5C195 /* Resources */,
+				E64CDCAE6AB24B55A8D2A748 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E33B0DF1871C11900E5C195 /* Build configuration list for PBXNativeTarget "ASHatenaBlogReaderTests" */;
 			buildPhases = (
+				ABB11632E3A0407995F11B1A /* Check Pods Manifest.lock */,
 				0E33B0C71871C11900E5C195 /* Sources */,
 				0E33B0C81871C11900E5C195 /* Frameworks */,
 				0E33B0C91871C11900E5C195 /* Resources */,
+				0CBD86857E6240F892DB8598 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,20 +446,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3902B9187D859000502159 /* BlogListFail.txt in Resources */,
+				0E3BF5CA1878FC7900C98D5B /* BlogList.txt in Resources */,
 				0E33B0D71871C11900E5C195 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CBD86857E6240F892DB8598 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ASHatenaBlogReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB11632E3A0407995F11B1A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C350404B1C404BAF8385DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E64CDCAE6AB24B55A8D2A748 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E33B0A61871C11800E5C195 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E10DC17187D287200CC91E4 /* ASKissXMLDocumentResponseSerializer.m in Sources */,
+				0ED5E9421886ED9100E3396D /* Blog.xcdatamodeld in Sources */,
+				0E33B1001872FE5F00E5C195 /* ASDateUtil.m in Sources */,
+				0E33B0FC1872799400E5C195 /* ASBlogDetailViewController.m in Sources */,
 				0E33B0BE1871C11900E5C195 /* ASAppDelegate.m in Sources */,
-				0E33B0C41871C11900E5C195 /* ASViewController.m in Sources */,
+				0E33B0F01871C6CF00E5C195 /* ASBlogManager.m in Sources */,
+				0EBDA7BD1873F009008F0892 /* ASStringUtil.m in Sources */,
+				0ED5E9471886EF5500E3396D /* _ASBlogEntity.m in Sources */,
+				0ED5E9481886EF5500E3396D /* ASBlogEntity.m in Sources */,
+				0E60BBC218882E84009FEB8F /* ASBlogAPIClient.m in Sources */,
+				0E33B0F51871CE5B00E5C195 /* ASBlogTableViewCell.m in Sources */,
+				0E10DC1A187D2FEB00CC91E4 /* DDXMLElement+Dictionary.m in Sources */,
+				0ED5E93F1886E99500E3396D /* ASBlogModel.m in Sources */,
 				0E33B0BA1871C11900E5C195 /* main.m in Sources */,
+				0E33B0E51871C22300E5C195 /* ASBlogListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +544,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E33B0D91871C11900E5C195 /* ASHatenaBlogReaderTests.m in Sources */,
+				0EB50BAD18780214008A14A2 /* ASSDateUtilTests.m in Sources */,
+				0E60BBC518883C3A009FEB8F /* ASBlogAPIClientTests.m in Sources */,
+				0E3BF5C718786DAB00C98D5B /* ASBlogManagerTests.m in Sources */,
+				0E3902B7187D696700502159 /* ASHTTPStubUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +663,7 @@
 		};
 		0E33B0DD1871C11900E5C195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83AE91370214F738C13CDF6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +677,7 @@
 		};
 		0E33B0DE1871C11900E5C195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83AE91370214F738C13CDF6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -402,6 +691,7 @@
 		};
 		0E33B0E01871C11900E5C195 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E9E214F24048B1A059949F /* Pods-ASHatenaBlogReaderTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASHatenaBlogReader.app/ASHatenaBlogReader";
@@ -416,6 +706,16 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworkActivityLogger\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/KissXML\"",
+					"\"${PODS_ROOT}/Headers/OCMock\"",
+					"\"${PODS_ROOT}/Headers/PBWebViewController\"",
+					"\"${PODS_ROOT}/Headers/TRVSMonitor\"",
+					"\"${PODS_ROOT}/Headers/Expecta\"",
+				);
 				INFOPLIST_FILE = "ASHatenaBlogReaderTests/ASHatenaBlogReaderTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -425,6 +725,7 @@
 		};
 		0E33B0E11871C11900E5C195 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E9E214F24048B1A059949F /* Pods-ASHatenaBlogReaderTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASHatenaBlogReader.app/ASHatenaBlogReader";
@@ -461,6 +762,7 @@
 				0E33B0DE1871C11900E5C195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E33B0DF1871C11900E5C195 /* Build configuration list for PBXNativeTarget "ASHatenaBlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +771,22 @@
 				0E33B0E11871C11900E5C195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0ED5E9401886ED9100E3396D /* Blog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0ED5E9411886ED9100E3396D /* Blog.xcdatamodel */,
+			);
+			currentVersion = 0ED5E9411886ED9100E3396D /* Blog.xcdatamodel */;
+			path = Blog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0E33B0A21871C11800E5C195 /* Project object */;
 }
